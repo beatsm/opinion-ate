@@ -20,13 +20,13 @@ export default function App() {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
-        <CssBaseline /> 
-        <AppBar position='static'>
+        <CssBaseline />
+        <AppBar position="static">
           <Toolbar>
             <Typography variant="h6">Opinion Ate</Typography>
           </Toolbar>
         </AppBar>
-        <Container>      
+        <Container>
           <RestaurantScreen />
         </Container>
       </ThemeProvider>
